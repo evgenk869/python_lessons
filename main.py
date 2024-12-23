@@ -45,9 +45,17 @@
 #
 # print('hello' in 'hello world')
 
-hours = int(input('Enter time: '))
-if 24 < hours >= 12:
-    print('PM')
-elif 12 > hours >= 0:
-    print('AM')
-else: print('Incorrect time!')
+# hours = int(input('Enter time: '))
+# if 24 < hours >= 12:
+#     print('PM')
+# elif 12 > hours >= 0:
+#     print('AM')
+# else: print('Incorrect time!')
+
+"""new_task"""
+ratio = int(input('Enter film ratio: '))
+if 0 < ratio <= 5:
+    if ratio == 4 or ratio == 5:
+        print('Good film')
+    else:
+        print('Bad film!')
