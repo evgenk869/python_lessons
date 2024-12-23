@@ -35,12 +35,19 @@
 # print(f"n1: {n1} n2: {n2} n3: {n3} n4: {n4}")
 # print(f"Result: {result}")
 
-print('Hello world')
+# print('Hello world')
+#
+# """___________________________________"""
+#
+# n1 = 10
+# n2 = 20
+# n3, n4, n5 = 5, 12, 4
+#
+# print('hello' in 'hello world')
 
-"""___________________________________"""
-
-n1 = 10
-n2 = 20
-n3, n4, n5 = 5, 12, 4
-
-print('hello' in 'hello world')
+hours = int(input('Enter time: '))
+if 24 < hours >= 12:
+    print('PM')
+elif 12 > hours >= 0:
+    print('AM')
+else: print('Incorrect time!')
