@@ -21,18 +21,26 @@
 # diagonal_2 = int(input('Enter second diagonale: '))
 #
 # Answer = print('The area of the rhombus: ', (diagonal_1 * diagonal_2) /2 )
+#
+# """ Task #3 """
+# number = int(input('Enter 4-digital number: '))
+#
+# n1 = number // 1000
+# n2 = number // 100 % 10
+# n3 = number // 10 % 10
+# n4 = number % 10
+#
+# result = n1 + n2 + n3 + n4
+#
+# print(f"n1: {n1} n2: {n2} n3: {n3} n4: {n4}")
+# print(f"Result: {result}")
 
-""" Task #3 """
-number = int(input('Enter 4-digital number: '))
+print('Hello world')
 
-n1 = number // 1000
-n2 = number // 100 % 10
-n3 = number // 10 % 10
-n4 = number % 10
+"""___________________________________"""
 
-result = n1 + n2 + n3 + n4
+n1 = 10
+n2 = 20
+n3, n4, n5 = 5, 12, 4
 
-print(f"n1: {n1} n2: {n2} n3: {n3} n4: {n4}")
-print(f"Result: {result}")
-
-print('Yello world')
+print('hello' in 'hello world')
